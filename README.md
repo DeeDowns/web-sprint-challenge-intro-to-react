@@ -29,12 +29,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+  It is a library used for building applications; it uses a virtual DOM that interacts with the actual DOM. You tell the virtual DOM which elements and state to render to the actual DOM. It improves browser performance by only having to make changes to DOM nodes that actually changed due to state changes. 
 
 1. Describe component state.
+    The component will re-render due to certain data changing. 
 
 1. Describe props.
+    Objects used when you want to pass info held on state from one component to the next
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+    Something that can cause a component to return a different output for the same state and props. To synce effects to changes of certain state or props use the effect hook and pass in a depenedency array with the desired state or props as the second argument of the hook.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 

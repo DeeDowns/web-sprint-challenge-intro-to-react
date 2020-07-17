@@ -11,7 +11,7 @@ const StyledCharacters = styled.div `
 `
 
 const CharactersList = props => {
-    const { characterData } = props
+    const { characterData, key } = props
     console.log(props)
 
     

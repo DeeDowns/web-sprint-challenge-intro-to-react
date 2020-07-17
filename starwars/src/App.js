@@ -7,6 +7,10 @@ import styled from 'styled-components';
 const StyledApp = styled.div `
   background-image: url('https://images.unsplash.com/photo-1542228846-2d791a09d7d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
 
+  h1 {
+    color: yellow;
+  }
+
 `
 
 
@@ -31,11 +35,10 @@ const App = () => {
     })
   }, [])
 
-console.log('chararcter array', characterData[0])
 
   return (
     <StyledApp className="App">
-      <h1 className="Header">Characters</h1>
+      <h1 className="Header">Star Wars Characters</h1>
      <CharactersList characterData={characterData}/>
     </StyledApp>
   );

@@ -4,6 +4,8 @@ import axios from 'axios';
 import CharactersList from './components/CharactersList';
 import styled from 'styled-components';
 
+
+
 const StyledApp = styled.div `
   background-image: url('https://images.unsplash.com/photo-1542228846-2d791a09d7d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
 
